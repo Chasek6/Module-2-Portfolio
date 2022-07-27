@@ -42,7 +42,8 @@ Usage
 - Open the index.html file in your default browser.
 
 Desktop
-![SSD1](./assets/SSD1.png)
+
+![SSD1](./assets/images/SSD1.png)
 ![SSD2](./assets/images/SSD2.png)
 ![SSD3](./assets/images/SSD3.png)
 ![SSD4](./assets/images/SSD4.png)
