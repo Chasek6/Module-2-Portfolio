@@ -1,5 +1,5 @@
 # Portfolio_1
-[deployed link](https://chasek6.github.io/Portfolio_1/)
+[deployed link](https://chasek6.github.io/Module-2-Portfolio/)
 Personal-Portfolio 
 
 Table of contents
