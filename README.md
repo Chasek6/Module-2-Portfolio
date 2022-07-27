@@ -1,6 +1,10 @@
 # Portfolio_1
 [deployed link](https://chasek6.github.io/Module-2-Portfolio/)
+
+
 Personal-Portfolio 
+
+
 
 Table of contents
 - Description
@@ -18,6 +22,7 @@ The Module 2 challenge was to create a portfolio website that included a header 
 
 
 This is my first public draft of my professional portfolio. The reasoning for creating a portfolio was to help develop a website where I would be able to showcase my previous work and newly formed skills to successfully find employment. This module helped me become more familiar and comfortable with using flexbox, media queries, and CSS grids, as well as applying and defining CSS variables. During building and designing this webpage I also learned more concepts like font-families and color pallets in Preparations for more advanced web development skills.
+
 
 Installation 
 1. The source code can be viewed y cloning the repository (Repo)for short found here to your local machine using HomeBrew (Mac) or Git Bash (PC):https://chasek6.github.io/Module-2-Portfolio/
@@ -37,27 +42,18 @@ Usage
 - Open the index.html file in your default browser.
 
 Desktop
-
-
-
-
-
-
-
-
-
+![SSD1](./assets/SSD1.png)
+![SSD2](./assets/images/SSD2.png)
+![SSD3](./assets/images/SSD3.png)
+![SSD4](./assets/images/SSD4.png)
 Tablet
-
-
-
-
-
-
-
-
+![SST1](./assets/images/SST1.png)
+![SST2](./assets/images/SST2.png)
+![SST3](./assets/images/SST3.png)
 
 Mobile
-
+![SSM1](./assets/images/SSM1.png)
+![SSM2](./assets/images/SSM2.png)
 
 
 
