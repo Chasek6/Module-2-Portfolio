@@ -45,9 +45,73 @@ font-size: 15px;
     background-color: wheat;
     margin: 5px;
 }
+    
+/* All Sections */
+.subtitles {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
 
+.mainsection {
+    display:flex;
+    flex-wrap: wrap;
+    font-family: 'Kotta One' serif;
+}
 
-@media screen and (max-width:1024px) {
+.mainsections h3 {
+    font-size: 2.5rem;
+    margin: 1rem;
+    text-align: right;
+}
+
+.leftcolumn {
+    /* flex-basis: 30%; */
+}
+
+.rightcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-basis: 60%; */
+    /* width: %; */
+    border-left: 0.2rem solid;
+    padding: 0.25rem 0.5rem 1rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.rightcolumn a {
+    text-decoration: none;
+}
+
+/* Contact Me */
+.contact ul {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.contact ul li a {
+    margin: 1rem;
+    border-bottom: 0.25rem solid;
+    text-decoration: none;
+    padding: 0 0 0.25rem 0;
+    color: var(--black);
+}
+
+.contact ul li a:hover {
+    background-color: var(--red);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+}
+
+     @media screen and (max-width:1024px) {
     .nav-links{
         width: 60%;
 }
@@ -55,7 +119,14 @@ font-size: 15px;
 
 
 @media screen and (max-width:768px) {
-    body{
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .contact ul {
+justify-content: space;
+    }
+    /* body{
         overflow:scroll
     }
     .nav-links{
@@ -76,84 +147,11 @@ font-size: 15px;
     }
     .burger{
         display: block;
-    }
+    } */
 
 }
 
     .nav.active{
         transform: translateX(0%);
     }
-
-    @keyframes navLinkFade{
-        from{
-            opacity: 0;
-            transform: translateX(50px);
-
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-span{
-    flex-wrap: wrap;
-    font-family: 'Ibarra Real Nova', serif;
-    text
-}
-    
-/* All Sections */
-.mainsections {
-    display:flex;
-    flex-wrap:center;
-    font-family: 'Kotta One', serif;
-}
-
-.mainsections h3 {
-    font-size: 2.5rem;
-    margin: 1rem;
-    text-align: right;
-}
-
-.leftcolumn {
-    width: 30%;
-}
-
-.rightcolumn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 75%;
-    border-left: 0.2rem solid
-    padding: 0.25rem 0.5rem 1rem 1.5rem;
-    font-size: 1.25rem;
-}
-
-.rightcolumn a {
-    text-decoration: none;
-}
-
-/* Contact Me */
-.mainsections ul {
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-.mainsections ul li a {
-    margin: 1rem;
-    border-bottom: 0.25rem solid;
-    text-decoration: none;
-    padding: 0 0 0.25rem 0;
-    color: var(--black);
-}
-
-.mainsections ul li a:hover {
-    background-color: var(--red);
-    cursor: pointer;
-    padding: 0.5rem;
-    transition-duration: 0.5s;
-
- }
+  
